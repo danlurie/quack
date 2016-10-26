@@ -1,4 +1,4 @@
-## Data Management and Reproducible Research
+## Data Management and Reproducible Research - 2016.10.27 - Dan Lurie and Chris Gagne
 
 Another scientist should be able to reproduce your entire research pipeline, from data collection to final figures, without having to email you with questions. It sounds intimidating, but it doesn't have to be, and in practice it's usually not that much extra work. You already know all the information they would need, it's largely just a matter of being mindful of how you do things and keeping a record. More selfishly, working in a reproducible way will make your own life easier, especially when you have to come back to a project months or years later.
 
@@ -8,7 +8,7 @@ Another scientist should be able to reproduce your entire research pipeline, fro
 	- Thou shalt not modify. Make copies instead.
 	- If working on a shared computer, lock down file permissions.
 - Keep things organized!
-    - Folder and file names should be self explanatory.
+	- Folder and file names should be self explanatory.
 	- Be descriptive! You’re not paying per character.
 	- If possible, use a standard ontology (e.g. [Brain Imaging Data Structure](http://bids.neuroimaging.io/)).
 	- Track [data provenance](https://en.wikipedia.org/wiki/Provenance#Data_provenance). Where did this file come from?
@@ -16,8 +16,8 @@ Another scientist should be able to reproduce your entire research pipeline, fro
 - Keep a lab notebook.
 	- Track everything you do in your research. You're not going to remember later.
 	- What manual edits or manipulations did you make to the data (and why)?
-    - What commands did you run, in what order, and with what options?
-    - What did you try that didn’t work?
+	- What commands did you run, in what order, and with what options?
+	- What did you try that didn’t work?
 - Have a backup plan.
 	- Dropbox and Google Drive are crazy easy to use.
 	- Make sure data is properly anonymized before uploading anywhere!
@@ -64,18 +64,19 @@ jupyter TOC extensions, hiding code extension
 
 example notebooks
 
-Local Resources
-- BIDS
-- D-Lab
-- BITSS (annual meeting 12/15-16)
+Open and reproducible science resources at UC Berkeley:
+- [Berkeley Institute for Data Science (BIDS)](http://www.bids.berkeley.edu)
+- [D-Lab](http://dlab.berkeley.edu/)
+- [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](http://www.bitss.org/)
+- [Stat 159/259: Reproducible and Collaborative Statistical Data Science](http://www.jarrodmillman.com/stat159-fall2015/)
 
-other resources
-- TOP guidelines
-- CoS
+Other resources:
+- [The Center for Open Science](https://cos.io/)
+- [The Transparency and Openness Promotion Guidelines](https://cos.io/top/)
 
-PLOS Computational Biology “Ten Simple Rules” Collection
-- Creating a Good Data Management Plan
-- Computational Biologist’s Laboratory Notebook
-- Care and Feeding of Scientific Data
-- Effective Computational Research
-- Reproducible Computational Research
+PLOS Computational Biology “Ten Simple Rules” Collection:
+- [Creating a Good Data Management Plan](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004525)
+- [Computational Biologist’s Laboratory Notebook](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004385)
+- [Care and Feeding of Scientific Data](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003542)
+- [Effective Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003506)
+- [Reproducible Computational Research](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1003285)
