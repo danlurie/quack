@@ -1,0 +1,81 @@
+## Data Management and Reproducible Research
+
+Another scientist should be able to reproduce your entire research pipeline, from data collection to final figures, without having to email you with questions. It sounds intimidating, but it doesn't have to be, and in practice it's usually not that much extra work. You already know all the information they would need, it's largely just a matter of being mindful of how you do things and keeping a record. More selfishly, working in a reproducible way will make your own life easier, especially when you have to come back to a project months or years later.
+
+### Practical Guidelines for Reliable and Reproducible Research
+- Protect the sanctity of your raw data.
+	- Always keep a hard-copy backup (e.g. CD/DVD, jump drive).
+	- Thou shalt not modify. Make copies instead.
+	- If working on a shared computer, lock down file permissions.
+- Keep things organized!
+    - Folder and file names should be self explanatory.
+	- Be descriptive! You’re not paying per character.
+	- If possible, use a standard ontology (e.g. [Brain Imaging Data Structure](http://bids.neuroimaging.io/)).
+	- Track [data provenance](https://en.wikipedia.org/wiki/Provenance#Data_provenance). Where did this file come from?
+	- Use [README files](https://en.wikipedia.org/wiki/README) to store notes about the contents of each folder.
+- Keep a lab notebook.
+	- Track everything you do in your research. You're not going to remember later.
+	- What manual edits or manipulations did you make to the data (and why)?
+    - What commands did you run, in what order, and with what options?
+    - What did you try that didn’t work?
+- Have a backup plan.
+	- Dropbox and Google Drive are crazy easy to use.
+	- Make sure data is properly anonymized before uploading anywhere!
+	- Think about long-term storage options. What happens when you leave the lab?
+- Use a version control system (e.g. [GitHub](https://github.com/)) to track changes.
+	- Unlimited private GitHub repositories with the free [Student Developer Pack](https://education.github.com/pack).
+	- Not just for code! Upload your data too.
+	- [SparkleShare](https://www.sparkleshare.org/) lets you use GitHub without having to run any commands.
+	- You can also edit most files directly through the GitHub web interface.
+
+Show examples from Dan’s and Chris’s Projects
+
+Github Basics
+1) Initialize a project repository.
+2) Add files.
+3) Commit changes.
+4) Push changes.
+5) Repeat steps 2-4 as you work.
+
+Drive - Google Drive API
+Version Control
+- The Git Parable
+
+Notebooks:
+- NBconvert to webpage or PDF for sharing (templates to delete or hide code)
+- Log book —> sharing and publication
+- Share on github and nbviewer
+- Plotly, mpld3
+
+Useful Notebook Tips
+- (look for good examples, combine into a tips notebook)
+- also: whole example notebooks (if possible)
+- code snippets / command reference
+
+Lab Notebooks
+- Jupyter
+- R Markdown
+- MATLAB Live Editor
+- SPSS Syntax Editor
+
+tunneling to jupyter on NX
+
+jupyter TOC extensions, hiding code extension
+
+example notebooks
+
+Local Resources
+- BIDS
+- D-Lab
+- BITSS (annual meeting 12/15-16)
+
+other resources
+- TOP guidelines
+- CoS
+
+PLOS Computational Biology “Ten Simple Rules” Collection
+- Creating a Good Data Management Plan
+- Computational Biologist’s Laboratory Notebook
+- Care and Feeding of Scientific Data
+- Effective Computational Research
+- Reproducible Computational Research
