@@ -46,6 +46,19 @@ Basic GitHub workflow:
 4. Push changes.
 5. Repeat steps 2-4 as you work.
 
+### Google Drive (Command Line Tool)
+
+Useful for copying a shared a folder (e.g. of figures) between google drive and servers that don't allow google drive syncing. 
+
+Full instructions here: https://github.com/odeke-em/drive#installation
+
+Basic Instructions 
+1. Install GO and create a go workspace 
+2. Initialize a folder with your google drive log-in: ~/go_workspace/bin/drive init
+3. Push to google drive: ~/go_workspace/bin/drive push --destination Proj_MVPA/Data/ * 
+
+
+
 ### Digital Lab Notebooks
 
 For some reason, many in psychology and neuroscience seem to have forgotten about [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). In almost every other area of science, lab notebooks sit at the very core of the entire research enterprise. It's not just a log of what you've done, it's also a place to make plans, consider hypotheses, jot down half formed ideas, etc. Science isn't just the stuff we do when working with subjects or running statistical tests; everything that happens in between is often just as (or even more) important. In recent years, many people have been [moving from paper and pencil to digital lab notebooks](http://www.nature.com/naturejobs/science/articles/10.1038/nj7493-523a), and some scientists are now keeping completely [open notebooks that anyone can view](http://onsnetwork.org/what-is-open-notebook-science/).
@@ -75,21 +88,16 @@ This is historically the most important purpose of a lab notebook, and has becom
 Most science is a team sport, and that often means sharing data, results, and analyses with people who may not be in the same place as you. If you use one of the computational notebooks listed above, it is super easy to generate nice looking PDFs or even interactive webpages where collaborators can see the data, analysis code, results and figures.
 
 **A part of your published research.**
-More and more journals (even [Nature](http://www.nature.com/authors/policies/availability.html) and [Science](http://www.sciencemag.org/authors/science-editorial-policies)) are requiring authors to publish or provide their raw data and analysis scripts. This is great for science, but can be a pain for scientists if they haven't been doing things in a reproducible way. If you've already got everything in a digital lab notebook and tracked through a GitHub repository, all you have to do is make things public.  
-
-Here are some examples of notebooks/repositories for published/in-press papers:
-- [Adaptive engagement of cognitive control in context-dependent decision-making.](https://github.com/mwaskom/Waskom_CerebCortex_InPress)
-- [Frontoparietal representations of task context support the flexible control of goal-directed cognition.](https://github.com/mwaskom/Waskom_JNeurosci_2014)
-- [Choosing prediction over explanation in psychology: Lessons from machine learning](https://github.com/tyarkoni/PPS2016)
-- [Adolescence is associated with genomically patterned consolidation of the hubs of the human brain connectome](https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016)
-
+More and more journals (even [Nature](http://www.nature.com/authors/policies/availability.html) and [Science](http://www.sciencemag.org/authors/science-editorial-policies)) are requiring authors to publish or provide their raw data and analysis scripts. This is great for science, but can be a pain for scientists if they haven't been doing things in a reproducible way. If you've already got everything in a digital lab notebook and tracked through a GitHub repository, all you have to do is make things public. [Here's a great example](https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016).
 
 #### Sharing Notebooks
-- Turn a Jupyter notebook into a PDF or HTML website using [nbconvert](https://github.com/jupyter/nbconvert).
+- Turn a Jupyter notebook into a PDF or HTML website using [nbconvert](https://github.com/jupyter/nbconvert)
+	- ipython nbconvert --to pdf --template=custom Notebook_Bayesian_Optimal_Learners
 - GitHub will automatically render any [Jupyter](http://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/) and [R Markdown](http://rmarkdown.rstudio.com/github_document_format.html) notebooks you have uploaded.
 - Use [nbviewer](https://nbviewer.jupyter.org/) to display Jupyter notebooks hosted on your own server.
 - Easily create interactive figures with [Plot.ly](https://plot.ly/) (Python, R, and MATLAB) and [MPLD3](http://mpld3.github.io/) (Python).
 - Share your entire computational environment (data, software, scripts, notebooks, etc) using [Binder](http://mybinder.org/)! 
+
 
 #### Open and reproducible science resources at UC Berkeley:
 - [Berkeley Institute for Data Science (BIDS)](http://www.bids.berkeley.edu)
