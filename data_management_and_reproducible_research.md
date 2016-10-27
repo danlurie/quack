@@ -10,7 +10,7 @@ Another scientist should be able to reproduce your entire research pipeline, fro
 - Keep things organized!
 	- Folder and file names should be self explanatory.
 	- Be descriptive! You’re not paying per character.
-	- If possible, use a standard ontology (e.g. [Brain Imaging Data Structure](http://bids.neuroimaging.io/)).
+	- If possible, use a standardized file structure (e.g. [Brain Imaging Data Structure](http://bids.neuroimaging.io/)).
 	- Track [data provenance](https://en.wikipedia.org/wiki/Provenance#Data_provenance). Where did this file come from?
 	- Use [README files](https://en.wikipedia.org/wiki/README) to store notes about the contents of each folder.
 - Keep a lab notebook.
@@ -66,13 +66,22 @@ The concept of a computational lab notebook gained popularity in large part due 
 - [MATLAB Live Editor](https://www.mathworks.com/products/matlab/live-editor/)
 - [SPSS Syntax Editor](http://williammurrah.com/reproducible-research-and-statistical-analyses/) (not really a notebook, but it will do in a pinch if you have no choice but to use SPSS)
 
-Tips for using a digital lab notebook:
+#### Benefits of Keeping a Digital Lab Notebook
+
+**A log of what you did.**
+This is historically the most important purpose of a lab notebook, and has become even more critical in light of the ["reproductibility crisis"](http://www.nature.com/news/reproducibility-1.17552). If you're good about keeping all your analysis in a notebook, your science will be immediately reproducible and your methods sections will write themselves. Trust us, you're not going to remember all the details later, and one of those little details might make all the difference. 
+
+**A way of sharing results with collaborators.**
+Most science is a team sport, and that often means sharing data, results, and analyses with people who may not be in the same place as you. If you use one of the computational notebooks listed above, it is super easy to generate nice looking PDFs or even interactive webpages where collaborators can see the data, analysis code, results and figures.
+
+**A part of your published research.**
+More and more journals are requiring authors to 
+
+
 - NBconvert to webpage or PDF for sharing (templates to delete or hide code)
 - Log book —> sharing and publication
 - Share on github and nbviewer
 - Plotly, mpld3
-
-Useful Notebook Tips
 - (look for good examples, combine into a tips notebook)
 - also: whole example notebooks (if possible)
 - code snippets / command reference
