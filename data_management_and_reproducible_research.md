@@ -89,6 +89,7 @@ More and more journals (even [Nature](http://www.nature.com/authors/policies/ava
 - [D-Lab](http://dlab.berkeley.edu/)
 - [Berkeley Initiative for Transparency in the Social Sciences (BITSS)](http://www.bitss.org/)
 - [Stat 159/259: Reproducible and Collaborative Statistical Data Science](http://www.jarrodmillman.com/stat159-fall2015/)
+- Dan is also always happy to chat about this stuff.
 
 #### Other resources:
 - [The Center for Open Science](https://cos.io/)
