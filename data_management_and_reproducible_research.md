@@ -85,9 +85,10 @@ Here are some examples of notebooks/repositories for published/in-press papers:
 
 
 #### Sharing Notebooks
-- Turn a Jupyter notebook into a PDF or HTML website using [nbconvert](https://github.com/jupyter/nbconvert).
 - GitHub will automatically render any [Jupyter](http://blog.jupyter.org/2015/05/07/rendering-notebooks-on-github/) and [R Markdown](http://rmarkdown.rstudio.com/github_document_format.html) notebooks you have uploaded.
 - Use [nbviewer](https://nbviewer.jupyter.org/) to display Jupyter notebooks hosted on your own server.
+- Turn a Jupyter notebook into a PDF or HTML website using [nbconvert](https://github.com/jupyter/nbconvert).
+- You can optionally hide your code by using this [Jupyter cell](https://github.com/danlurie/quack/blob/master/jupyter_cell_for_code_folding) or [this nbconvert template](https://github.com/danlurie/quack/blob/master/custom.tplx).
 - Easily create interactive figures with [Plot.ly](https://plot.ly/) (Python, R, and MATLAB) and [MPLD3](http://mpld3.github.io/) (Python).
 - Share your entire computational environment (data, software, scripts, notebooks, etc) using [Binder](http://mybinder.org/)! 
 
