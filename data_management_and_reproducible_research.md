@@ -28,18 +28,24 @@ Another scientist should be able to reproduce your entire research pipeline, fro
 	- [SparkleShare](https://www.sparkleshare.org/) lets you use GitHub without having to run any commands.
 	- You can also edit most files directly through the GitHub web interface.
 
-Show examples from Dan’s and Chris’s Projects
+### Using GitHub for Version Control
 
-Github Basics
-1) Initialize a project repository.
-2) Add files.
-3) Commit changes.
-4) Push changes.
-5) Repeat steps 2-4 as you work.
+Learning resources:
+	- [Git Basics - What is version control? (video)](https://git-scm.com/video/what-is-version-control)
+	- [The Git Parable](https://practical-neuroimaging.github.io/git_parable.html)
+	- [Git/Github: A primer for researchers](https://datapub.cdlib.org/2014/05/05/github-a-primer-for-researchers/)
+	- [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489/_show_article)
+	- [Git for scientists: A tutorial](http://nyuccl.org/pages/gittutorial/)
+	- [Version control with Git](http://swcarpentry.github.io/git-novice/)
 
-Drive - Google Drive API
-Version Control
-- The Git Parable
+Basic GitHub workflow:
+	1) Initialize a project repository.
+	2) Add files.
+	3) Commit changes.
+	4) Push changes.
+	5) Repeat steps 2-4 as you work.
+
+### Digital Lab Notebooks
 
 Notebooks:
 - NBconvert to webpage or PDF for sharing (templates to delete or hide code)
@@ -58,6 +64,8 @@ Lab Notebooks
 - MATLAB Live Editor
 - SPSS Syntax Editor
 
+
+Show examples from Dan’s and Chris’s Projects
 tunneling to jupyter on NX
 
 jupyter TOC extensions, hiding code extension
