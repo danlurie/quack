@@ -52,12 +52,21 @@ For some reason, psychology and neuroscience seem to have forgotten about [lab n
 
 We both tend to work in two parallel notebook-type places:
 
-1. A text-based system (Evernote for Dan, Google Docs for Chris) for research notes, brainstorming, planning, interpretation, daily logs, etc. Many people also like Microsoft OneNote for this purpose.
-2. A computational environment (Jupyter Notebook for both of us) for doing and tracking our analysis.
+1. A text-based system for research notes, brainstorming, planning, interpretation, daily logs, etc. 
+2. A computational notebook for doing and tracking our analysis.
 
-We both also know people who 
+Popular text-based systems:
+- Evernote
+- Google Docs
+- [Microsoft OneNote](https://www.onenote.com/)
 
-Notebooks:
+The concept of a computational lab notebook gained popularity in large part due to the [success of IPython Notebook](http://blog.fperez.org/2012/01/ipython-notebook-historical.html) (now part of Jupyter), but there are now notebook options for most analysis environments.
+- [Jupyter](http://jupyter.org/) (supports Python, R, and MATLAB)
+- [RStudio and R Markdown](http://rmarkdown.rstudio.com/)
+- [MATLAB Live Editor](https://www.mathworks.com/products/matlab/live-editor/)
+- [SPSS Syntax Editor](http://williammurrah.com/reproducible-research-and-statistical-analyses/) (not really a notebook, but it will do in a pinch if you have no choice but to use SPSS)
+
+Tips for using a digital lab notebook:
 - NBconvert to webpage or PDF for sharing (templates to delete or hide code)
 - Log book —> sharing and publication
 - Share on github and nbviewer
