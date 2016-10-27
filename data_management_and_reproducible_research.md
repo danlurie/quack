@@ -31,19 +31,20 @@ Another scientist should be able to reproduce your entire research pipeline, fro
 ### Using GitHub for Version Control
 
 Learning resources:
-	- [Git Basics - What is version control? (video)](https://git-scm.com/video/what-is-version-control)
-	- [The Git Parable](https://practical-neuroimaging.github.io/git_parable.html)
-	- [Git/Github: A primer for researchers](https://datapub.cdlib.org/2014/05/05/github-a-primer-for-researchers/)
-	- [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489/_show_article)
-	- [Git for scientists: A tutorial](http://nyuccl.org/pages/gittutorial/)
-	- [Version control with Git](http://swcarpentry.github.io/git-novice/)
+- [Git Basics - What is version control? (video)](https://git-scm.com/video/what-is-version-control)
+- [The Git Parable](https://practical-neuroimaging.github.io/git_parable.html)
+- [Git/Github: A primer for researchers](https://datapub.cdlib.org/2014/05/05/github-a-primer-for-researchers/)
+- [A quick introduction to version control with Git and GitHub](https://www.authorea.com/users/5990/articles/17489/_show_article)
+- [Git for scientists: A tutorial](http://nyuccl.org/pages/gittutorial/)
+- [Version control with Git](http://swcarpentry.github.io/git-novice/)
 
 Basic GitHub workflow:
-	1) Initialize a project repository.
-	2) Add files.
-	3) Commit changes.
-	4) Push changes.
-	5) Repeat steps 2-4 as you work.
+
+1. Initialize a project repository.
+2. Add files.
+3. Commit changes.
+4. Push changes.
+5. Repeat steps 2-4 as you work.
 
 ### Digital Lab Notebooks
 
