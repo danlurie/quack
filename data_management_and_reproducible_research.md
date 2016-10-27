@@ -1,4 +1,4 @@
-## Data Management and Reproducible Research - 2016.10.27 - Dan Lurie and Chris Gagne
+### Data Management and Reproducible Research - 2016.10.27 - Dan Lurie and Chris Gagne
 
 Another scientist should be able to reproduce your entire research pipeline, from data collection to final figures, without having to email you with questions. It sounds intimidating, but it doesn't have to be, and in practice it's usually not that much extra work. You already know all the information they would need, it's largely just a matter of being mindful of how you do things and keeping a record. More selfishly, working in a reproducible way will make your own life easier, especially when you have to come back to a project months or years later.
 
@@ -47,6 +47,15 @@ Basic GitHub workflow:
 5. Repeat steps 2-4 as you work.
 
 ### Digital Lab Notebooks
+
+For some reason, psychology and neuroscience seem to have forgotten about [lab notebooks](https://en.wikipedia.org/wiki/Lab_notebook). In almost every other area of science, lab notebooks sit at the very core of the entire research enterprise. It's not just a log of what you've done, it's also a place to make plans, consider hypotheses, jot down half formed ideas, etc. Science isn't just the stuff we do when working with subjects or running statistical tests; everything that happens in between is often just as (or even more) important. In recent years, many people have been [moving from paper and pencil to digital lab notebooks](http://www.nature.com/naturejobs/science/articles/10.1038/nj7493-523a), and some scientists are now keeping completely [open notebooks that anyone can view](http://onsnetwork.org/what-is-open-notebook-science/).
+
+We both tend to work in two parallel notebook-type places:
+
+1. A text-based system (Evernote for Dan, Google Docs for Chris) for research notes, brainstorming, planning, interpretation, daily logs, etc. Many people also like Microsoft OneNote for this purpose.
+2. A computational environment (Jupyter Notebook for both of us) for doing and tracking our analysis.
+
+We both also know people who 
 
 Notebooks:
 - NBconvert to webpage or PDF for sharing (templates to delete or hide code)
