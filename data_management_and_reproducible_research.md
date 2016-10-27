@@ -75,7 +75,14 @@ This is historically the most important purpose of a lab notebook, and has becom
 Most science is a team sport, and that often means sharing data, results, and analyses with people who may not be in the same place as you. If you use one of the computational notebooks listed above, it is super easy to generate nice looking PDFs or even interactive webpages where collaborators can see the data, analysis code, results and figures.
 
 **A part of your published research.**
-More and more journals (even [Nature](http://www.nature.com/authors/policies/availability.html) and [Science](http://www.sciencemag.org/authors/science-editorial-policies)) are requiring authors to publish or provide their raw data and analysis scripts. This is great for science, but can be a pain for scientists if they haven't been doing things in a reproducible way. If you've already got everything in a digital lab notebook and tracked through a GitHub repository, all you have to do is make things public. [Here's a great example](https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016).
+More and more journals (even [Nature](http://www.nature.com/authors/policies/availability.html) and [Science](http://www.sciencemag.org/authors/science-editorial-policies)) are requiring authors to publish or provide their raw data and analysis scripts. This is great for science, but can be a pain for scientists if they haven't been doing things in a reproducible way. If you've already got everything in a digital lab notebook and tracked through a GitHub repository, all you have to do is make things public.  
+
+Here are some examples of notebooks/repositories for published/in-press papers:
+- [Adaptive engagement of cognitive control in context-dependent decision-making.](https://github.com/mwaskom/Waskom_CerebCortex_InPress)
+- [Frontoparietal representations of task context support the flexible control of goal-directed cognition.](https://github.com/mwaskom/Waskom_JNeurosci_2014)
+- [Choosing prediction over explanation in psychology: Lessons from machine learning](https://github.com/tyarkoni/PPS2016)
+- [Adolescence is associated with genomically patterned consolidation of the hubs of the human brain connectome](https://github.com/KirstieJane/NSPN_WhitakerVertes_PNAS2016)
+
 
 #### Sharing Notebooks
 - Turn a Jupyter notebook into a PDF or HTML website using [nbconvert](https://github.com/jupyter/nbconvert).
